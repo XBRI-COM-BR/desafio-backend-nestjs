@@ -1,8 +1,8 @@
-# Desafio Backend NestJS – XBRI
+# Desafio Backend Laravel – XBRI
 
 ## Objetivo: 
 
-Construir uma API para um marketplace de venda de pneus, permitindo que usuários (vendedores e compradores) gerenciem seus anúncios e realizem compras.
+Construir uma API baseada no modelo TDD para um marketplace de venda de pneus, permitindo que usuários (vendedores e compradores) gerenciem seus anúncios e realizem compras.
 
 ## Requisitos
 
@@ -55,23 +55,29 @@ Validações:
 
 ## Funcionalidades obrigatórias
 
-- Cadastro e autenticação de usuários:
-
+### Cadastro e autenticação de usuários:
 - Endpoint para registrar um novo usuário.
 - Endpoint para login com geração de token JWT.
-- Gerenciamento de produtos (apenas para vendedores): Criar, listar, atualizar e deletar produtos.
 
-Marketplace público:
+### Gerenciamento de produto:
 
-- Listar todos os produtos disponíveis (com paginação, filtro por marca e tamanho).
+CRUD de produtos (apenas para vendedores) com as opções a seguir:
+- Criar 
+- listar
+- atualizar
+- deletar produtos.
 
-Gerenciamento de pedidos:
+### Gerenciamento de pedidos:
 
 - Criar um pedido para um produto.
 - Listar pedidos do comprador ou vendedor.
 - Atualizar o status do pedido (apenas pelo vendedor).
 
-Testes obrigatórios
+### Marketplace público:
+
+- Listar todos os produtos disponíveis (com paginação, filtro por marca e tamanho).
+
+### Testes obrigatórios
 
 - Cadastro e autenticação de usuários.
 - Criação e validação de produtos.
