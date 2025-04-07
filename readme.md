@@ -1,4 +1,4 @@
-# Desafio Backend Laravel – XBRI
+# Desafio Backend NestJS – XBRI
 
 ## Objetivo: 
 
